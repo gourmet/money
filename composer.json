@@ -1,0 +1,43 @@
+{
+    "name": "gourmet/money"
+    , "description": "Adds support Money data type to CakePHP 3."
+    , "type": "cakephp-plugin"
+    , "keywords": [
+        "cakephp"
+        , "gourmet"
+    ]
+    , "homepage": "https://github.com/gourmet/money"
+    , "license": "MIT"
+    , "authors": [
+        {
+            "name": "Jad Bitar"
+            , "homepage": "http://jadb.io"
+            , "role": "Author"
+        }
+        , {
+            "name": "Others"
+            , "homepage": "https://github.com/gourmet/money/graphs/contributors"
+        }
+    ]
+    , "support": {
+        "issues": "https://github.com/gourmet/money/issues"
+        , "source": "https://github.com/gourmet/money"
+    }
+    , "require": {
+        "cakephp/cakephp": "3.0.*-dev",
+        "sebastian/money": "1.5.*"
+    }
+    , "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    }
+    , "autoload": {
+        "psr-4": {
+            "Gourmet\\Money\\": "src"
+        }
+    }
+    , "autoload-dev": {
+        "psr-4": {
+            "Gourmet\\Money\\Test\\": "tests"
+        }
+    }
+}
