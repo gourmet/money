@@ -24,7 +24,7 @@
         , "source": "https://github.com/gourmet/money"
     }
     , "require": {
-        "cakephp/cakephp": "3.0.*-dev",
+        "cakephp/cakephp": "3.*",
         "sebastian/money": "1.5.*"
     }
     , "require-dev": {
