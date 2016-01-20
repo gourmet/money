@@ -1,10 +1,11 @@
 {
     "name": "gourmet/money"
-    , "description": "Adds support Money data type to CakePHP 3."
+    , "description": "Adds support Money data type to CakePHP 3 ORM."
     , "type": "cakephp-plugin"
     , "keywords": [
         "cakephp"
         , "gourmet"
+        , "orm"
     ]
     , "homepage": "https://github.com/gourmet/money"
     , "license": "MIT"
